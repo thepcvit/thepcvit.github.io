@@ -5417,6 +5417,7 @@ button.close {
   display: none;
   overflow: hidden;
   outline: 0;
+  text-align:center;
 }
 
 .modal.fade .modal-dialog {
@@ -5444,7 +5445,9 @@ button.close {
 .modal-dialog {
   position: relative;
   width: auto;
+  display: inline-block;
   margin: 10px;
+
 }
 
 .modal-content {
