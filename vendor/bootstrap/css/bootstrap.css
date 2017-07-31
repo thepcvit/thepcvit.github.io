@@ -12,6 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+
 body {
   margin: 0;
 }
@@ -696,6 +697,10 @@ mark,
 .figure-caption {
   font-size: 90%;
   color: #636c72;
+}
+
+.panel {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 code,
@@ -4623,6 +4628,12 @@ tbody.collapse.show {
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
+.footer{
+  position: absolute;
+  bottom: 0;
+  width=100%;
+}
+
 @media (min-width: 576px) {
   .card-deck {
     display: -webkit-box;
@@ -5447,7 +5458,6 @@ button.close {
   width: auto;
   display: inline-block;
   margin: 10px;
-
 }
 
 .modal-content {
