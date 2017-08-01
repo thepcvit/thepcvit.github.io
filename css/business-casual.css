@@ -6,7 +6,10 @@
 
 body {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /*
     background: url('../img/bg1.jpg') no-repeat center center fixed;
+    */
+    background: #CFD8DC;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -51,8 +54,17 @@ h1 {
 }
 
 .bg-faded {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #37474F;
+    color: rgba(255, 255, 255, 0.6);
 }
+
+.bg-fadedc {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #999;
+    -webkit-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;
+  }
 
 .bg-overlay {
     background-color: rgba(0, 0, 0, 0.7);
