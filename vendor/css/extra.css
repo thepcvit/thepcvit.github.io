@@ -1,5 +1,6 @@
 @media(min-width:576px){
   .credits-modal{
-    width:150%  !important;
+    width:50%  !important;
+    max-width: 876px !important;
   }
 }
