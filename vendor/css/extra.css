@@ -1,6 +1,14 @@
+.pdf-file{
+  width: 100%;
+  height: 500px;
+}
 @media(min-width:576px){
   .credits-modal{
     width:50%  !important;
     max-width: 876px !important;
+  }
+  .pdf-file{
+    width: 80%;
+    height: 800px;
   }
 }
