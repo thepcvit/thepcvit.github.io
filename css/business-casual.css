@@ -75,6 +75,11 @@ hr.divider {
     max-width: 250px;
 }
 
+hr.divider_about{
+  border-color: #292b2c;
+  max-width: 300px;
+}
+
 .map-container iframe {
     pointer-events: none;
 }
