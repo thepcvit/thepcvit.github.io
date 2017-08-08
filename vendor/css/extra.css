@@ -7,6 +7,10 @@
     width:50%  !important;
     max-width: 876px !important;
   }
+  .events-modal{
+    width:50% !important;
+    max-width: 550px !important;
+  }
   .pdf-file{
     width: 80%;
     height: 800px;
