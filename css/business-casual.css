@@ -87,3 +87,9 @@ hr.divider_about{
 .map-container iframe.clicked {
     pointer-events: auto;
 }
+
+
+a.a-news
+{
+  color: #000000 !important;
+}
