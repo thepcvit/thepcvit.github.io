@@ -42,6 +42,11 @@
   ga('create', 'UA-103633805-1', 'auto');
   ga('send', 'pageview');
 </script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#recuitments_modal").modal('show');
+    });
+</script>
 <body>
   <!-- preloader -->
   <div class="loader">
@@ -76,7 +81,7 @@
             <a class="nav-link text-uppercase text-expanded" href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="ccs.html">Recruitments</a>
+            <a class="nav-link text-uppercase text-expanded" href="https://goo.gl/forms/wfOUtpVlN65r5ndn2">Recruitments</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="events.html">Events</a>
@@ -97,6 +102,21 @@
       </div>
     </div>
   </nav>
+  <div id="recuitments_modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img class="card-img-top img-fluid py-2" src="img/rec.jpeg" alt="poster">
+              <a href="https://goo.gl/forms/wfOUtpVlN65r5ndn2" target="_blank">
+                <button type="submit" class="btn btn-primary">Register</button>
+              </a>
+        </div>
+    </div>
+  </div>
+</div>
   <div class="container">
     <div class="bg-fadedc p-4 my-4">
       <!-- Image Carousel -->

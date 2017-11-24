@@ -767,6 +767,16 @@ pre code {
   padding-left: 15px;
 }
 
+.container_form {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: auto;
+  padding-top: 15px;
+}
+
 @media (min-width: 576px) {
   .container {
     padding-right: 15px;
@@ -854,6 +864,99 @@ pre code {
 
 @media (min-width: 1200px) {
   .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .container_form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container_form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container_form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.container_form {
+@media (min-width: 576px) {
+    width: 540px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container_form {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container_form {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_form {
+    width: 1140px;
+    max-width: 100%;
+  }
+}
+
+.container_form-fluid {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container_form-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container_form-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_form-fluid {
     padding-right: 15px;
     padding-left: 15px;
   }
