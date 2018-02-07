@@ -13,6 +13,7 @@
  <script src="vendor/jquery/jquery.min.js"></script>
  <script src="vendor/tether/tether.min.js"></script>
  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+ 
  <!-- Custom fonts for this template -->
  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
@@ -100,20 +101,55 @@
    <h2 class="text-center text-lg text-uppercase my-0"><strong>About The Team</strong></h2>
    <hr class="divider">
    <div class="row">
-     <div class="col-lg-6">
-      <img class="img-fluid mb-4 mb-lg-0" src="img/aboutpic.jpeg" alt="">
+     <div class="col-lg-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid w-100" src="img/aboutpic.jpeg" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <!--
+            <h3 class="text-shadow">First Slide</h3>
+            <p class="text-shadow">This is the caption for the first slide.</p>
+            -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid w-100" src="img/team2.jpeg" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <!--
+            <h3 class="text-shadow">Second Slide</h3>
+            <p class="text-shadow">This is the caption for the first slide.</p>
+            -->
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
      </div>
-     <div class="col-lg-6">
+     <div class="col-lg-12">
+	 <hr>
+	 <hr>
       <p>To say that we are simply a group of like-minded individuals would be a grave understatement. We are a family with a place for every interest, every thought and every individual. Corny, but true. Writing, debating, speaking - we do it all!</p>
       <p>Like every well-oiled machine, we have several critical parts responsible for our own functionalities; each with their own specialization. </p>
       <p><strong>Media Team: </strong>They can be found covering every major happening on campus. Comprised of a bunch of really hard working folks, they're responsible for crafting strong relationships with other clubs and chapters. They are in a way - the very heart and soul of THEPC.</p>
-      <p><strong>Design: </strong>A bunch of creative folks with impeccable visual taste. Every graphical post and wacky poster can be credited to them.</p>
+      <p><strong>Design & Web Development Team: </strong>A bunch of creative folks with impeccable visual taste. Every graphical post and wacky poster can be credited to them.</p>
     </div>
     <div class="col-lg-12">
-      <p><strong>Editorial: </strong>Home to some really talented writers and thinkers, the editorial team is responsible for coming up with beautiful write-ups and thought provoking blog-posts. Make sure you aren't rusty with your grammar when speaking with an editorial member nearby.</p>
-      <p><strong>R &amp; D: </strong>The think-tank of the club. They're the brain behind every event; truly a force to reckon with! Think twice before diving into a rapid-fire round with them.</p>
-      <p><strong>Operations: </strong>The very backbone of the club. As the name entails they ensure the basics responsible for the functioning of the club. They are responsible for the venue permissions, event approvals and a lot more.</p>
-      <p><strong>Outreach: </strong>A relatively young branch, it's constituted of ongoing, enthusiastic individuals with an affinity for fests. They've been responsible for garnering many laurels for the club and will continue to do so in the future.</p>
+      <p><strong>Editorial Team: </strong>Home to some really talented writers and thinkers, the editorial team is responsible for coming up with beautiful write-ups and thought provoking blog-posts. Make sure you aren't rusty with your grammar when speaking with an editorial member nearby.</p>
+      <p><strong>R &amp; D Team: </strong>The think-tank of the club. They're the brain behind every event; truly a force to reckon with! Think twice before diving into a rapid-fire round with them.</p>
+      <p><strong>Management and Public Relations Team: </strong>The very backbone of the club. As the name entails they ensure the basics responsible for the functioning of the club. They are responsible for the venue permissions, event approvals and a lot more.</p>
+      <p><strong>Outreach Team: </strong>A relatively young branch, it's constituted of ongoing, enthusiastic individuals with an affinity for fests. They've been responsible for garnering many laurels for the club and will continue to do so in the future.</p>
     </div>
    </div>
   </div>
@@ -250,6 +286,115 @@
       </div>
     </div>
   </div>
+  <div class="bg-fadedc p-4 my-4">
+    <hr class="divider">
+    <h2 class="text-center text-lg text-uppercase my-0"><strong>Advisory Board</strong></h2>
+    <hr class="divider">
+    <div class="row">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/shubh.jpeg" alt="Shubhangi Das Burman">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Shubhangi Das Barman</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/karth.jpeg" alt="Kartikeya Jain">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Kartikeya Jain</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/abhi.jpeg" alt="Abhinav Gumber">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Abhinav Gumber</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="row py-2">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/rohit.jpeg" alt="Rohitanshu Kar">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Rohitanshu Kar</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/hiran.jpeg" alt="Hiranmayi Shastry">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Hiranmayi Shastry</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/rajat.jpeg" alt="Rajat Gupta">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Rajat Gupta</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-2">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/vraj.jpeg" alt="Vrajesh Ved">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Vrajesh Ved</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/ninad.jpeg" alt="Ninad Rahate">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Ninad Rahate</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/aekansh.jpeg" alt="Aekansh Mishra">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Aekansh Mishra</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-2">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/saur.jpeg" alt="Saurabh Kumar">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Saurabh Kumar</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/shrey.jpeg" alt="Shreyansh Parakh">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Shreyansh Parakh</h4>
+          </div>
+        </div>
+      </div>
+	  <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card h-100">
+          <img class="card-img-top img-fluid" src="img/advisory/subha.jpeg" alt="Shubhangi Sathyakumar">
+          <div class="card-block text-center">
+            <h4 class="card-title m-0">Shubhangi Sathyakumar</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="bg-fadedc p-4 my-4 text-lg">
     <div id="accordion" role="tablist" aria-multiselectable="true">
       <div class="card">
@@ -273,53 +418,7 @@
               <div class="col-md-4">
                 <div class="panel panel-default">
                   <div class="panel-body">
-                    Mariam Sunil Varkey
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="panel panel-default">
-                  <div class="panel-body">
-                    Sowmiyaa Senthilkumar
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="panel panel-default">
-                  <div class="panel-body">
-                    Japneet Kaur Saluja
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="panel panel-default">
-                  <div class="panel-body">
-                    Ananya Sridhar
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="panel panel-default">
-                  <div class="panel-body">
-                    Meghana Gudivada
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="panel panel-default">
-                  <div class="panel-body">
-                    Anusha Subramanian
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="panel panel-default">
-                  <div class="panel-body">
-                    Oeindrila Bairagi
+                    Sakshi Ragini
                   </div>
                 </div>
               </div>
@@ -335,6 +434,13 @@
               <div class="col-md-4">
                 <div class="panel panel-default">
                   <div class="panel-body">
+                    Oeindrila Bairagi
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
                     Tanmay Aggarwal
                   </div>
                 </div>
@@ -342,7 +448,23 @@
               <div class="col-md-4">
                 <div class="panel panel-default">
                   <div class="panel-body">
-                    Sakshi Ragini
+                    Sowmiyaa Senthilkumar
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Anusha Subramanian
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Parth Pande
                   </div>
                 </div>
               </div>
@@ -354,13 +476,113 @@
                 </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Neeraj Meghani
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Vikram Venkat
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Muskan Chanana
+                  </div>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Saumyaa Sinha
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Vignesh A
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Shreya Subedi
+                  </div>
+                </div>
+              </div>
+            </div><div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                   Shivam Kumar Pandey
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Shivansh Mishra
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Shourya Sarkar
+                  </div>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Raka Sinha
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Sonal Mahanta
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    Ramyaja
+                  </div>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    N S V Rohit
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card">
           <div class="card-header" role="tab" id="headingTwo">
             <h5 class="mb-0">
               <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color:black">
-                <strong>Research &amp; Development</strong>
+                <strong>Research &amp; Development Team</strong>
               </a>
             </h5>
           </div>
@@ -370,21 +592,99 @@
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Mayanknath Jha
+                      Aditya V. V. S
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Aditya V.V.S
+                      Aditya Devarajan
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Shubhangi Sathyakumar
+                      Y. Vishnu Datta
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Shivangi Shukla
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Apurv Vaibhav
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                     Rahul Sharan
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                     Swapnil Kumar
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Shreyash Pal
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Gayathri Vadhyan
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Snuhee Roy
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                     Shivam Sethi
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Arinjay Bisht
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Reshabh Kumar Jain
                     </div>
                   </div>
                 </div>
@@ -396,7 +696,7 @@
           <div class="card-header" role="tab" id="headingThree">
             <h5 class="mb-0">
               <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color:black">
-                <strong>Media</strong>
+                <strong>Media Team</strong>
               </a>
             </h5>
           </div>
@@ -406,26 +706,10 @@
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Revanti Mukherjee
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="panel panel-default">
-                    <div class="panel-body">
-                      Avishek Agarwal
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="panel panel-default">
-                    <div class="panel-body">
                       Sarah Elsa Mathew
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
@@ -433,6 +717,15 @@
                     </div>
                   </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Kritika Singh
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
@@ -447,31 +740,22 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Anmol Tiwari
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="panel panel-default">
-                    <div class="panel-body">
-                      Kritika Singh
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="panel panel-default">
-                    <div class="panel-body">
-                      Sandesh Shetty
+                      Sanjeet Srivastava
                     </div>
                   </div>
                 </div>
               </div>
               <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Swobhijat Bose
+                    </div>
+                  </div>
+                </div>
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
@@ -482,19 +766,171 @@
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Sanjeet Srivastava
+                      Mariam Sunil Varkey
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Sandesh Shetty
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Swobhijat Bose
+                      Pragya Mohi
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
-
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Ajai Ramana
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Anushka Sharma
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Anushree Karajgi
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Prem Praveen Nair
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Devanshi Chadha
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Mrinalini Singh
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Amreeta Koner
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Shaurya Saxena
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Pritika Roy Chowdhury
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Samvit Singh Jain
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      R.W. Karunesh
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Ribbin Raphel
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Raj Baldev
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      R.Rakshith
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Mohinth
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Prithvi
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Kevin Varghese
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Noyonika Roy
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Shantanu Chakole
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -503,13 +939,20 @@
           <div class="card-header" role="tab" id="headingFour">
             <h5 class="mb-0">
               <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="color:black">
-                <strong>Operations</strong>
+                <strong>Management and Public Relations Team</strong>
               </a>
             </h5>
           </div>
           <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" style="color:black">
             <div class="card-block">
               <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Revanti Mukherjee
+                    </div>
+                  </div>
+                </div>
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
@@ -520,14 +963,7 @@
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Kanak Agarwal
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="panel panel-default">
-                    <div class="panel-body">
-                      Dewang Mehta
+                      Neelesh Dave
                     </div>
                   </div>
                 </div>
@@ -536,21 +972,162 @@
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Neelesh Dave
+                      Dewang Mehta
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Tanay Mehta
+                      Ananya Sridhar
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="panel panel-default">
                     <div class="panel-body">
-                      Rajat Agarwal
+                      Meghana Gudivada
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Vincent Davis A
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Anusha Gupta
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Abhinav Srivastava
+                    </div>
+                  </div>
+                </div>
+              </div><div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Purbasha das
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Reema Gupta
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Srivatsan R
+                    </div>
+                  </div>
+                </div>
+              </div><div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Poulami Paul
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Pulkit marwah
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Anant sharma
+                    </div>
+                  </div>
+                </div>
+              </div><div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Abhishek Bhardwaj
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Saumya Tandon
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Samarth Arora
+                    </div>
+                  </div>
+                </div>
+              </div><div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Chaitra Umesh
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Sushmitha Duvvi
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Eshanee ghosh
+                    </div>
+                  </div>
+                </div>
+              </div><div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Mohini Dey
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Sarthak Dhawan
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Gautham Prasanth
+                    </div>
+                  </div>
+                </div>
+              </div><div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Aditya Kaushik
                     </div>
                   </div>
                 </div>
@@ -562,7 +1139,7 @@
           <div class="card-header" role="tab" id="headingFive">
             <h5 class="mb-0">
               <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="color:black">
-                <strong>Design</strong>
+                <strong>Design & Web Development Team</strong>
               </a>
             </h5>
           </div>
@@ -591,6 +1168,106 @@
                   </div>
                 </div>
               </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Naveen
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Aayushree Konwar
+                    </div>
+                  </div>
+                </div>
+               <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Subham Agrawal
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Sai Mithlesh
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div class="card">
+          <div class="card-header" role="tab" id="headingSix">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="color:black">
+                <strong>Newsletter (The Weekly Edge) Team</strong>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+            <div class="card-block">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Anuj Bhandari
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Nannapaneni Thejesh
+                    </div>
+                  </div>
+                </div>
+               <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Nikhil Sharma
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Naveen
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Aayushree Konwar
+                    </div>
+                  </div>
+                </div>
+               <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Subham Agrawal
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      Sai Mithlesh
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -598,12 +1275,11 @@
     </div>
   </div>
 </div>
-</div>
 <!-- /.container -->
 <footer class="bg-faded text-center py-2">
   <div class="container">
     <p class="m-0">Copyright &copy; The Hindu Education plus Club 2018 |
-      <button  data-toggle="modal" data-target="#myModal">Credits</button>
+      <button  data-toggle="modal" data-target="#myModal">Credits</button >
     </p>
   </div>
 </footer>
