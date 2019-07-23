@@ -561,7 +561,7 @@ pre {
 .thumbnail-title {
     color: #2c2c2c;
     font-family: 'Righteous',helvetica,sans-serif;
-    font-size: 1.5vmin;
+    font-size: 1vmin;
     margin: 0 auto 10px auto;
     text-align: left;
     letter-spacing: 4px;
@@ -573,7 +573,7 @@ pre {
 .thumbnail-description {
     color: #2c2c2c;
     font-family: 'quicksand', Arial, sans-serif;
-    font-size: 0.75vmin;
+    font-size: 0.5vmin;
     margin: 0 auto;
     max-height: 5em;
     max-width: 360px;
