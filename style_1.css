@@ -573,7 +573,7 @@ pre {
 .thumbnail-description {
     color: #2c2c2c;
     font-family: 'quicksand', Arial, sans-serif;
-    font-size: 0.3vw;
+    font-size: 1vw;
     margin: 0 auto;
     max-height: 5em;
     text-align: left;
